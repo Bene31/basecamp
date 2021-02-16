@@ -1,0 +1,8 @@
+npm i @babel/core @babel/cli @babel/preset-env -D
+npm install webpack webpack-cli webpack-dev-server @babel/polyfill -D -> instalar webpack
+npm init -y -> criar package.json
+npm i json-server -D -> instalar json
+npm i axios -> instalr axios
+npm run dev -> rodar 
+npm install style-loader css-loader -D -> instalar css para usar no webpack
+npm i vue@next

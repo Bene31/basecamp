@@ -1,0 +1,24 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "babel ./src/main.js -o ./public/bundle.js -w",
+    "car": "babel ./src/main1.js -o ./public/bundle1.js -w",
+    "dev2": "webpack serve --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.13",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {},
+  "description": ""
+}

@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 5%, rgba(25,121,9,1) 35%, rgba(0,212,255,1) 83%);
+}
+h1{
+    color: bisque;
+    text-align: center;
+}
+body:hover{
+    background: linear-gradient(90deg, rgb(202, 201, 228) 5%, rgb(121, 13, 9) 35%, rgb(255, 0, 157) 83%);
+}
+.c{
+    border: 3px solid black;
+    height: 100px;
+    background: linear-gradient(90deg, rgb(39, 32, 240) 5%, rgb(209, 96, 44) 35%, rgb(94, 43, 74) 83%);
+}
+.e{
+    border: 3px solid rgb(233, 18, 18);
+    height: 100px;
+    background: linear-gradient(180deg, rgb(39, 32, 240) 5%, rgb(209, 96, 44) 35%, rgb(94, 43, 74) 83%);
+}
+.d{
+    border: 3px solid rgb(20, 233, 37);
+    height: 100px;
+    background: linear-gradient(0deg, rgb(39, 32, 240) 5%, rgb(209, 96, 44) 35%, rgb(94, 43, 74) 83%);
+}
+.b{
+    border: 3px solid rgb(47, 192, 236);
+    height: 100px;
+    background: linear-gradient(270deg, rgb(39, 32, 240) 5%, rgb(209, 96, 44) 35%, rgb(94, 43, 74) 83%);
+}
